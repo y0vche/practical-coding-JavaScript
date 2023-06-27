@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+ }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+ }
+
+ .heart {
+  position: fixed;
+  top: -1.3vh;
+  transform: translateY(0);
+  animation: fall 3s linear forwards;
+  font-size: 2rem;
+
+ }
+
+ @keyframes fall {
+
+  to {
+    transform: translateY(105vh); 
+  }
+
+ }
